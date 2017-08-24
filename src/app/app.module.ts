@@ -8,7 +8,9 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule.withServerTransition({ 
+      appId: 'angular-universal-firebase' 
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]
