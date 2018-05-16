@@ -6,7 +6,7 @@ const path = require('path');
 const { enableProdMode } = require('@angular/core');
 const { renderModuleFactory } = require('@angular/platform-server');
 
-const { AppServerModuleNgFactory } = require('./dist-ssr/main.bundle');
+const { AppServerModuleNgFactory } = require('./dist/server/main');
 
 enableProdMode();
 
