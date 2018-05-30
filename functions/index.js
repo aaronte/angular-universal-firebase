@@ -11,7 +11,7 @@ const { AppServerModuleNgFactory } = require('./dist/server/main');
 enableProdMode();
 
 const index = require('fs')
-  .readFileSync(path.resolve(__dirname, './dist/index.html'), 'utf8')
+  .readFileSync(path.resolve(__dirname, './dist/browser/index.html'), 'utf8')
   .toString();
 
 let app = express();
